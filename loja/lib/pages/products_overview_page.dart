@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import '../components/product_grid.dart';
 
 class ProductsOverviwPage extends StatefulWidget {
   const ProductsOverviwPage({Key? key}) : super(key: key);
@@ -14,6 +15,7 @@ class _ProductsOverviwPageState extends State<ProductsOverviwPage> {
       appBar: AppBar(
         title: const Center(child: Text('Minha Loja')),
       ),
+      body: ProductGrid(),
     );
   }
 }
